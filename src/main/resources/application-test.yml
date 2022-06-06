@@ -1,0 +1,14 @@
+application:
+  name: My App
+  message: Welcome to ${application.name}
+
+my:
+  list: ONE,TWO,THREE
+  greeting: Hello World
+
+db:
+  connection=: test-connection-string
+  host: 127.0.0.1
+  port: 4321
+
+management.endpoints.web.exposure.include: "*"

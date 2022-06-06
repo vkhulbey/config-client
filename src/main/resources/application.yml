@@ -1,0 +1,15 @@
+application:
+            name: My App
+            message: Welcome to ${application.name}
+
+my:
+   list: ONE,TWO,THREE
+   greeting: Hello World
+
+db:
+  connection=: "{url: 'localhost:8080', username: 'foo', password: 'foo'}"
+  host: 127.0.0.1
+  port: 1234
+
+management.endpoints.web.exposure.include: "*"
+spring.profiles.active: test
